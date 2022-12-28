@@ -1,4 +1,4 @@
-# Rate-my-avatar-screenshare-
+# Rate-my-desktop
 Rate my desktop (rate my avatar screenshare) is a python and exploit script
 Where u can put ur desktop screen into ROBLOX
 blah blash blah
