@@ -1,0 +1,15 @@
+function update(text)
+    local args = {
+        [1] = "Update",
+        [2] = {
+            ["DescriptionText"] = text,
+            ["ImageId"] = 0
+        }
+    }
+
+    game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
+end
+while true do
+    Response = game:HttpGet("http://localhost:8002")
+    coroutine.wrap(update)(Response)
+end
